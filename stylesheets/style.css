@@ -38,7 +38,9 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+    font-family: var(--font-stack);
+}
 
 /*
     - Small mobile - 320px

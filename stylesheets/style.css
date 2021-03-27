@@ -42,6 +42,8 @@ li {
 /* Base + Font styles */
 body {
     font-family: var(--font-stack);
+
+    background-color: var(--primary-1);
 }
 
 /*

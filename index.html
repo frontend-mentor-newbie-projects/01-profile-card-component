@@ -1,57 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Meta -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Links -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/style.css">
+    <!-- Links -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans" rel="stylesheet">  
-  
-  <!-- Misc -->
-  <title>Frontend Mentor | Profile Card Component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans" rel="stylesheet">  
+    
+    <!-- Misc -->
+    <title>Frontend Mentor | Profile Card Component</title>
 
-</head>
-<body>
-  <!-- Images -->
-  <section id="images">
-    <div id="banner-image"></div>
-    <div id="profile-picture"></div>
-  </section>
+  </head>
+  <body>
+    <!-- Main -->
+    <main>
+      <!-- Card -->
+      <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+          <!-- Banner Image -->
+          <section id="banner">
+            <div id="banner-image"></div>
+          </section>
+        </div>
 
-  <!-- User Information -->
-  <section id="user-information">
-    <h1>Victor Crest</h1>
-    <p id="age">26</p>
-    <p id="location">London</p>
-  </section>
+        <!-- Card Body -->
+        <div class="card-body">
+          <!-- User Information -->
+          <section id="user-information">
+            <div id="profile-picture">
+              <img src="./images/image-victor.jpg" alt="Man">
+            </div>
 
-  <!-- User Stats -->
-  <section id="user-stats">
-    <div class="stat" id="followers">
-      <p>80K</p>
-      <h2>Followers</h2>
-    </div>
+            <h1>Victor Crest</h1>
+            <p id="age">26</p>
+            <p id="location">London</p>
+          </section>
+        </div>
 
-    <div class="stat" id="likes">
-      <p>803K</p>
-      <h2>Likes</h2>
-    </div>
+        <!-- Card Footer -->
+        <div class="card-footer">
+          <!-- User Stats -->
+          <section id="user-stats">
+            <div class="stat" id="followers">
+              <p>80K</p>
+              <h2>Followers</h2>
+            </div>
 
-    <div class="stat" id="photos">
-      <p>1.4K</p>
-      <h2>Photos</h2>
-    </div>
-  </section>
+            <div class="stat" id="likes">
+              <p>803K</p>
+              <h2>Likes</h2>
+            </div>
 
-  <!-- Footer -->
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-</body>
+            <div class="stat" id="photos">
+              <p>1.4K</p>
+              <h2>Photos</h2>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
 </html>

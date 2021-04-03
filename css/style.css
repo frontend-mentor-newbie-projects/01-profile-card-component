@@ -69,6 +69,34 @@ main .card .card-body #user-information #location {
   margin-bottom: 24px;
 }
 
+main .card .card-footer #user-stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+  padding: 24px 0;
+}
+
+main .card .card-footer #user-stats .stat {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 64px;
+}
+
+main .card .card-footer #user-stats .stat h2 {
+  color: #6a6f81;
+  font-size: 12px;
+  font-weight: 400;
+  order: 1;
+}
+
+main .card .card-footer #user-stats .stat p {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  order: -1;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;

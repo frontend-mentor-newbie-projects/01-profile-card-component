@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: TBA
-- Live Site URL: [Here](https://likelytwitchdollop.github.io/profile-card-component/)
+- Frontend Mentor Solution
+- [Live Site](https://likelytwitchdollop.github.io/profile-card-component/)
 
 ## My process
 

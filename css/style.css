@@ -1,0 +1,129 @@
+/* Global Varibables */
+/* Reset browser defaults */
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body,
+h1, h2,
+p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Base + Font styles */
+body {
+  font-family: "Kumbh Sans";
+  background-color: #19a2ae;
+}
+
+main .card .card-header #banner {
+  background-image: url(../images/bg-pattern-card.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 144px;
+}
+
+main .card .card-body #user-information #profile-picture {
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 24px;
+}
+
+main .card .card-body #user-information #name-age {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+main .card .card-body #user-information #name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+main .card .card-body #user-information #age {
+  color: #6a6f81;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main .card .card-body #user-information #location {
+  color: #6a6f81;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+main .card .card-footer #user-stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+  padding: 24px 0;
+}
+
+main .card .card-footer #user-stats .stat {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 64px;
+}
+
+main .card .card-footer #user-stats .stat h2 {
+  color: #6a6f81;
+  font-size: 12px;
+  font-weight: 400;
+  order: 1;
+}
+
+main .card .card-footer #user-stats .stat p {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  order: -1;
+}
+
+/* Mobile styles -- Starting point */
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  margin: 0 auto;
+  min-height: 667px;
+  height: 100vh;
+}
+
+main .card {
+  text-align: center;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+/* Footer styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */

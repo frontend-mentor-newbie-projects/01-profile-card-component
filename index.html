@@ -1,35 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <!-- Links -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-x-small.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" href="./css/style-small.css" media="screen and (min-width: 620px)">
 
-  80K
-  Followers
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans" rel="stylesheet">  
+    
+    <!-- Misc -->
+    <title>Frontend Mentor | Profile Card Component</title>
 
-  803K
-  Likes
+  </head>
+  <body>
+    <!-- Main -->
+    <main>
+      <!-- Card -->
+      <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+          <!-- Banner Image -->
+          <section id="banner">
+            <div id="banner-image"></div>
+          </section>
+        </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <!-- Card Body -->
+        <div class="card-body">
+          <!-- User Information -->
+          <section id="user-information">
+            <div id="profile-picture">
+              <img src="./images/image-victor.jpg" alt="Man">
+            </div>
+
+            <div id="name-age">
+              <h1 id="name">Victor Crest</h1>
+              <p id="age">26</p>
+            </div>
+            <p id="location">London</p>
+          </section>
+        </div>
+
+        <!-- Card Footer -->
+        <div class="card-footer">
+          <!-- User Stats -->
+          <section id="user-stats">
+            <div class="stat" id="followers">
+              <p>80K</p>
+              <h2>Followers</h2>
+            </div>
+
+            <div class="stat" id="likes">
+              <p>803K</p>
+              <h2>Likes</h2>
+            </div>
+
+            <div class="stat" id="photos">
+              <p>1.4K</p>
+              <h2>Photos</h2>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
 </html>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,sFAAsF;AAEtF,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,IAAI,CAAC,KAAK,CAAC;IACP,KAAK,EAAE,KAAK;GACf;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,IAAI,CAAC,KAAK,CAAC;IACP,KAAK,EAAE,KAAK;GACf",
+    "sources": [
+        "../sass/style-x-small.scss"
+    ],
+    "names": [],
+    "file": "style-x-small.css"
+}

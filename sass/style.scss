@@ -50,7 +50,7 @@ main .card .card-header #banner {
 }
 
 main .card .card-body #user-information {
-    #profile-picture {
+    #profile-picture {        
         width: 100px;
         height: 100px;
 
@@ -149,12 +149,12 @@ body {
 
     padding: 64px 24px;
     margin: 0 auto;
+
+    height: 100vh;
 }
 
 main .card {
     text-align: center;
-
-    width: 342px;
 
     background-color: white;
 

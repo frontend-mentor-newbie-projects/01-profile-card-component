@@ -99,7 +99,6 @@ main .card .card-footer #user-stats {
     flex-flow: row nowrap;
     justify-content: space-around; // No need to add padding in the .stat <div>
 
-
     border-top: 1px solid hsla(0, 0%, 59%, 0.2);
 
     padding: 24px 0;
@@ -149,7 +148,7 @@ body {
 
     padding: 64px 24px;
     margin: 0 auto;
-
+    
     height: 100vh;
 }
 

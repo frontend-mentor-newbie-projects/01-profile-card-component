@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Frontend Mentor Solution
-- [Live Site](https://frontend-mentor-newbie-projects.github.io/profile-card-component/)
+- [Live Site](https://frontend-mentor-newbie-projects.github.io/01-profile-card-component/)
 
 ## My process
 
